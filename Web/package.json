@@ -1,0 +1,35 @@
+{
+  "name": "web-dfss",
+  "version": "1.0.0",
+  "description": "Web application for the dynamic fruit storage system (LPA)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanlorenzo/lpa-dfss.git"
+  },
+  "author": "luanlorenzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanlorenzo/lpa-dfss/issues"
+  },
+  "homepage": "https://github.com/luanlorenzo/lpa-dfss#readme",
+  "dependencies": {
+    "ajv": "^6.10.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.16.0",
+    "socket.io": "^2.2.0",
+    "websocket": "^1.0.28"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
