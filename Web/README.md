@@ -1,1 +1,0 @@
-Web application for the dynamic fruit storage system (LPA)
